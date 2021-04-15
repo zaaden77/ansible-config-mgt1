@@ -21,10 +21,10 @@
       name: wireshark
       state: latest
 
-- name: Creates directory
-  file:
-    path: /src/www
-    state: directory
-    owner: www-data
-    group: www-data
-    mode: 0775
+#- name: Creates directory
+#  file:
+#   path: /src/www
+#   state: directory
+#  owner: www-data
+#   group: www-data
+#   mode: 0775
