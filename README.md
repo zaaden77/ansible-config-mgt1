@@ -1,8 +1,4 @@
 # ansible-config-mgt1
-Test run
-First build
-Testing to validate build is working properly
-Adding a new build
-Validation testing 
-New changes validation test
-Introduction to new Jenkins/job enhancement
+#
+- Introduction to new Jenkins/job enhancement
+- Continuous working project with ansible-config-mgt1 repository and make some improvements of your code, such as refactor your Ansible code, create assignments, using the imports functionality to perform many tasks within playbook.
