@@ -7,3 +7,5 @@
 - New changes validation test
 - Introduction to new Jenkins/job enhancement
 - Ansible refactoring & status 
+- In this project curently, working with ansible-config-mgt1 repository and making some additional   improvements to my code. 
+- First proces is to refactor my Ansible code, create assignments, and using the imports functionality. 
