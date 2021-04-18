@@ -21,10 +21,16 @@
       name: wireshark
       state: latest
 
-#- name: Creates directory
-#  file:
-#   path: /src/www
-#   state: directory
-#  owner: www-data
-#   group: www-data
-#   mode: 0775
+- name: update web, nfs and db servers
+  hosts: webservers, nfs, db
+  remote_user: ec2-user
+  become: yes
+  become_user: root
+  tasks:
+  - name: create directory
+    file:
+      path: /src/www
+      state: directory
+      owner: ec2-user
+      group: ec2-user
+      mode: 0775
