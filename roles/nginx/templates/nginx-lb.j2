@@ -1,0 +1,13 @@
+
+ upstream myproject {
+    server 172.31.25.18 weight=5;
+    server 172.31.25.19 weight=5;
+  }
+
+server {
+    listen 80;
+    server_name www.domain.com;
+    location / {
+      proxy_pass http://myproject;
+    }
+  }
